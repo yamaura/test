@@ -1,5 +1,4 @@
 #!/bin/sh
-echo -p Disk-Path(/dev/sda):
 disk=/dev/sda
 
 grep -q ${disk} /proc/partitions || exit 1
