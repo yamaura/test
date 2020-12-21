@@ -1,4 +1,5 @@
 #!/bin/bash
+# curl -sfL yamaura.github.io/test/kernel-devel.sh | bash
 BASE_URL=http://ftp.iij.ad.jp/pub/linux
 CENTOS_RELEASE=(
 centos-vault/7.0.1406
