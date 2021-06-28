@@ -10,6 +10,8 @@ centos-vault/7.4.1708
 centos-vault/7.5.1804
 centos-vault/7.6.1810
 centos-vault/7.7.1908
+centos-vault/7.8.2003
+centos/7.9.2009
 )
 REPO=(
 os/x86_64/Packages
