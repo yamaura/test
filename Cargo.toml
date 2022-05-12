@@ -1,0 +1,16 @@
+[package]
+name = "test"
+version = "0.1.0"
+push = false
+edition = "2021"
+
+[dependencies]
+rand = "0.8.5"
+combine = { version = "4.6.4", features = ["std"] }
+itertools = "0.10.3"
+clap = { version = "3.1.12", features = ["derive"], optional = true }
+
+futures = { version = "0.3.21", features = ["async-await"] }
+futures-lite = "1.12.0"
+tokio = { version = "1.15.0", features = ["full"] }
+tokio-util = { version = "0.6.9", features = ["codec"] }
