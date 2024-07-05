@@ -1,3 +1,4 @@
+// init_logging is in examples
 use std::time::{Duration, Instant};
 
 async fn mysleep(i: u32) -> u32 {
